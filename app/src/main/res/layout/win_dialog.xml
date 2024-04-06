@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#c48647">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Congratulations!You Win!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="149dp"
+            android:layout_height="100dp"
+            android:text="Start Again"
+            android:textSize="20dp"
+            android:id="@+id/btn_ok"
+            android:background="#c48647"
+            android:layout_marginTop="16dp"/>
+
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:textSize="20dp"
+            android:id="@+id/win_home"
+            android:background="@drawable/ih"
+            android:layout_marginTop="16dp"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

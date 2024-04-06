@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="ExitDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">-->
+<!--        <item name="android:textColor">#000</item> &lt;!&ndash; Change to your desired button text color &ndash;&gt;-->
+<!--    </style>-->
+
+    <style name="ExitDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#c48647</item>
+    </style>
+</resources>
